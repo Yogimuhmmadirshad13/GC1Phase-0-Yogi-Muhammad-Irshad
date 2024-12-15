@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color: white;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    /* background: url(Image/Foto\ 1.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    background-color: #121619;
+    color: white;
+    font-family:"Inter", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 16px 40px;
+    /* background-color: black; */
+}
+
+.menu{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.container{
+    font-size: 16px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 100px 40px 40px 40px;
+}
+
+.player-history{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px 0px;
+      border-top: 1.5px solid white;
+    /* background-color: #2c2f32;
+    border-radius: 10px; */
+    /* border-style: solid; */
+}
+
+.player-history .player-history-group{
+    display: flex;    
+    gap: 20px;
+    padding: 0px 14px;
+}
+
+.position-content{
+    padding: 10px 40px 10px 20px;
+    /* background-color: #34393D; */
+    list-style-type: none;
+    /* border-right: 1.5px solid white; */
+}
+
+.position{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap:20px;
+}
+
+.country-content{
+    padding: 10px 40px 10px 20px;
+    /* background-color: #34393D; */
+    list-style-type: none;
+    /* border-right: 1.5px solid white; */
+    justify-content: center;
+
+}
+
+.country{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap:20px;
+}
+
+.dateOfBirth-content{
+    padding: 10px 40px 10px 20px;
+    /* background-color: #34393D; */
+    list-style-type: none;
+    /* border-right: 1.5px solid white; */
+}
+
+
+.dateOfBirth{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap:20px;
+}
+
+.club-content{
+    padding: 10px 40px 10px 20px;
+    /* background-color: #34393D; */
+    list-style-type: none;
+    /* border-right: 1.5px solid white; */
+}
+
+.club{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap:20px;
+}
+
+.video{
+    width: 25%;
+}
+
+
+
+
